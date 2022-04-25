@@ -1,0 +1,65 @@
+{
+  "name": "vue-3-base-architecture",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:e2e": "cypress open",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "pinia": "^2.0.12",
+    "vite-svg-loader": "^3.1.2",
+    "vue": "^3.2.25",
+    "vue-i18n": "^9.2.0-beta.20",
+    "vue-router": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@pinia/testing": "^0.0.10",
+    "@testing-library/dom": "^7.31.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/vue": "^6.4.2",
+    "@types/jsdom": "^16.2.14",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "@vue/compiler-sfc": "^3.0.11",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "cypress": "^9.5.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.0.0",
+    "fetch-mock-jest": "^1.5.1",
+    "jsdom": "^19.0.0",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.11",
+    "start-server-and-test": "^1.14.0",
+    "typescript": "^4.5.4",
+    "vi-fetch": "^0.6.1",
+    "vite": "^2.8.0",
+    "vitest": "^0.9.3",
+    "vue-tsc": "^0.29.8"
+  },
+  "engines": {
+    "npm": "~1.0.20"
+  },
+  "description": "Base architecture programmed in Vue 3, with all the official libraries.",
+  "main": "src/main.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.atsistemas.com/scm/aotofr/vue-architecture-poc.git"
+  },
+  "author": "atSistemas",
+  "license": "ISC",
+  "keywords": [
+    "vue",
+    "vite"
+  ]
+}
